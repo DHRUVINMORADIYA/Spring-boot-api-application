@@ -1,7 +1,6 @@
 package com.example.walnutAssessment.DAO;
 
 import com.example.walnutAssessment.models.Post;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.*;
 

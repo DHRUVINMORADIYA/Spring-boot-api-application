@@ -1,9 +1,12 @@
 package com.example.walnutAssessment.validators;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Objects;
 
 import static com.example.walnutAssessment.utils.Constants.*;
 
+@Component
 public class PostsControllerValidators {
     public Boolean validateTags(String[] tags) {
         return tags != null && tags.length >= 1;
