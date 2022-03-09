@@ -1,7 +1,5 @@
 package com.example.walnutAssessment.models;
 
-import static com.example.walnutAssessment.utils.Constants.*;
-
 public class Post {
     private int id;
     private String author;
