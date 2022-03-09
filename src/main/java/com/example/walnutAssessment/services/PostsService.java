@@ -20,7 +20,7 @@ public class PostsService {
 
     @Cacheable(cacheNames="posts")
     public SortedSet<Post> getPosts(String[] tags, String sortBy, String direction) {
-        log.info("check");
+        log.info("calling APIs");
         SortedSet<Post> posts = new TreeSet<>(new PostComparator(sortBy, direction));
 
         Arrays.stream(tags).forEach(tag -> {

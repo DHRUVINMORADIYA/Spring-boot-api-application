@@ -1,6 +1,5 @@
 package com.example.walnutAssessment.controllers;
 
-import com.example.walnutAssessment.models.Post;
 import com.example.walnutAssessment.services.PostsService;
 import com.example.walnutAssessment.validators.PostsControllerValidators;
 import org.springframework.beans.factory.annotation.Autowired;
